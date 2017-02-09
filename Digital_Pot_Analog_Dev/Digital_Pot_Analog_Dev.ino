@@ -28,7 +28,7 @@ void setup()
 
 void loop()
 {
-  float Voltage;
+  float Voltage = 0;
 
   // Increment potentiometer up to full resistance
   for (int i = 0; i <= 128; i++) {
